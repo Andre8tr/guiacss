@@ -1,0 +1,55 @@
+/* Conceptos generales */
+
+/* Selector universal */
+* {
+    color: red;
+}
+
+/* Selectro de tipo */
+p {
+    color: blue;
+}
+
+/* Selector por clase */
+.titulo {
+    color: green;
+}
+
+/* Seleccionar por ID */
+/* Nota: Deberia de ser unico, es decir, usarse en un solo elemento */
+#titulo-notas {
+    font-size: 2rem;
+    color: rgb(100%, 60.9%, 60.9%);
+}
+
+/* Se selecciona el atributo que tenga y su valor para dar estilos */
+[rancio="sii"] {
+    color: hotpink;
+}
+
+/* Selectores descendientes */
+.contenedor a p {
+    color: rgb(69.1%, 59.3%, 59.3%);
+    text-decoration: none;
+}
+
+.contenedor a {
+    text-decoration: none;
+}
+
+
+/* Pseudo clase, son los eventos de un elemento */
+/* Cuando se pase el mouse sobre un elemento */
+.contenedor a p:hover{
+    background-color: rgb(0%, 98%, 60.4%)
+}
+
+
+
+/* ESPECIFICDAD */
+/* 1.) Important */
+/* 2.) Estilos en linea*/
+/* 3.) Identificadores */
+/* 4.) Clases - Pseudoclases - Atributos*/
+/* 5.) Elementos - Pseudoelementos*/
+
